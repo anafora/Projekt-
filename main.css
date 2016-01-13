@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body {
+   background: grey; 
+}
+
+.element {
+    font-size: 5em;
+    position: relative;
+    color: white;
+}
+
+.type {
+         left: 0;
+    position:absolute;
+    text-align:center;
+    top: 10em;
+    width: 100%
+}
+
+
+/* the container for video */
+.fullscreen-bg{
+    width:100%;
+    height:75%;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    padding:0;
+    margin:0;
+    overflow: hidden;
+    z-index: -1;
+}
+/* the video element */
+.video-bg{
+    width:100%;
+/*    height:auto;*/
+    
+}
