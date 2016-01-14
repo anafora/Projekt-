@@ -270,6 +270,7 @@ th {
   }
   .navbar {
     display: none;
+    border-radius: 0;
   }
   .btn > .caret,
   .dropup > .btn > .caret {
@@ -3692,7 +3693,7 @@ input[type="button"].btn-block {
   line-height: 1;
   background: none;
   border: 1px solid transparent;
-  border-radius: .25rem;
+  border-radius: 0;
 }
 
 .navbar-toggler:focus, .navbar-toggler:hover {
